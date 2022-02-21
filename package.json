@@ -1,6 +1,6 @@
 {
   "name": "cra-template-appfactory",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "The UWP App Factory's default template for react and firebase.",
   "repository": {
     "type": "git",

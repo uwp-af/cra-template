@@ -61,12 +61,12 @@ export default function Login() {
             <p hidden={hidden}>Please try again</p>
             <form onSubmit={handleSubmit} id="login-form" style={{ display: 'grid', rowGap: '10px', width: "20%", justifyContent: "center" }}>
                 <div>
-                    <label htmlFor="username" style={{width: "80px"}}>Username:</label>
+                    <label htmlFor="username" style={{width: "100px", display: "inline-block"}}>Username:</label>
                     <input type='text' name='username' id='username' style={{ marginLeft: "10px", width: "250px" }} />
                 </div>
                 <div>
-                    <label htmlFor="password" style={{width: "80px"}}>Password:</label>
-                    <input type='password' name='password' id='password' style={{ marginLeft: "10px", width: "250px", paddingRight: "50px" }} />
+                    <label htmlFor="password" style={{width: "100px", display: "inline-block"}}>Password:</label>
+                    <input type='password' name='password' id='password' style={{ marginLeft: "10px", width: "200px", paddingRight: "52px" }} />
                     <button type="button" onClick={showPassword} style={{border: "none", background: "none", width: "50px", marginLeft: "-50px"}}>show</button>
                 </div>
                 <button type="submit" style={{width: "20%", minWidth: "60px", justifySelf:"center", borderRadius: "10px"}}>Login!</button>

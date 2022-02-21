@@ -16,9 +16,6 @@ import { AuthProvider, FirebaseAppProvider } from "reactfire";
  */
 import { auth, firebaseApp } from "providers/firebase";
 
-// Import bundled bootstrap as needed
-import 'bootstrap/dist/css/bootstrap.min.css'
-
 ReactDOM.render(
   <React.StrictMode>
       <FirebaseAppProvider firebaseApp={firebaseApp}>
