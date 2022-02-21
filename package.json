@@ -1,0 +1,23 @@
+{
+  "name": "cra-template-appfactory",
+  "version": "1.0.0",
+  "description": "The UWP App Factory's default template for react and firebase.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uwp-af/cra-template.git"
+  },
+  "keywords": [
+    "react",
+    "create-react-app",
+    "template",
+    "firebase",
+    "reactfire",
+    "react-router"
+  ],
+  "author": "Matthew Fallon",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/uwp-af/cra-template/issues"
+  },
+  "homepage": "https://github.com/uwp-af/cra-template#readme"
+}
