@@ -3,6 +3,7 @@ import { useUser, useAuth } from "reactfire";
 
 
 export default function Dashboard() {
+    document.title = "Dashboard"
     let {data: user} = useUser();
     let auth = useAuth();
     let navigate = useNavigate();

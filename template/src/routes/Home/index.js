@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import TemplateExpiry from "components/TemplateExpiry";
 
 export default function Home() {
+    document.title = "Home"
 
     return (
         <>

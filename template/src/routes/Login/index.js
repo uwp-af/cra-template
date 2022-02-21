@@ -5,6 +5,7 @@ import { useState } from "react";
 
 
 export default function Login() {
+    document.title = "Login"
     let navigate = useNavigate();
     let location = useLocation();
     let auth = useAuth();
@@ -16,6 +17,7 @@ export default function Login() {
 
     function handleSubmit(e) {
         e.preventDefault();
+        document.getElementById("password").type = "password"
         let formData = new FormData(document.getElementById("login-form"));
         // One lining an assignment for brevity
         let [username, password] = [formData.get("username"), formData.get("password")];
