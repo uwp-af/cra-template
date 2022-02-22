@@ -40,3 +40,7 @@ window.gtag("config", firebaseConfig.measurementId, {
 export const firebaseApp = initializeApp(firebaseConfig);
 export const analytics = getAnalytics(firebaseApp);
 export const auth = getAuth(firebaseApp);
+
+if (process.env.REACT_APP_ENABLE_EMULATORS === "true") {
+  connectAuthEmulator(auth, "http://localhost:9099")
+}
