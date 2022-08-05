@@ -8,7 +8,7 @@ export default function Home() {
         <>
             <h1>Home</h1>
             <p>This is our homepage, go <Link to="/login">here</Link> to login</p>
-            <TemplateExpiry createDate={new Date('Feb 20 2022')} expiryMonths={6} />
+            <TemplateExpiry createDate={new Date('Aug 04 2022')} expiryMonths={6} />
         </>
     )
 }
